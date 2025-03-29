@@ -3,7 +3,7 @@
 # A bash script that creates the necessary symlinks for setting up various of my
 # configuration files (dotfiles)
 
-DIR="/home/orphic/Repos/dotfiles"
-CONFIG_DIR="/home/orphic/.config/"
-
-ln -sf "$DIR"/alacritty/alacritty.toml "$CONFIG_DIR"
+ln -sf "$DOTFILES"/alacritty/alacritty.toml ~/.config/
+ln -sf "$DOTFILES"/nvim/ ~/.config/
+ln -sf "$DOTFILES"/zsh/.zshrc ~/
+ln -sf "$DOTFILES"/tmux/.tmux.conf ~/

@@ -2,14 +2,15 @@
 size = 13
 
 [font.normal]
-family = "Fira Code"
+family = "Blex Mono Nerd Font"
 
 [window]
 decorations = "none"
+opacity = 0.96
 
 [window.padding]
 x = 7
-y = 0
+y = 3
 
 # GitHub Dark High Contrast (BG Modified to Pure Black)
 [colors.primary]
